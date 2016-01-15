@@ -1,0 +1,134 @@
+/* CURRENTLY IN: styles/main.css */
+html {
+	margin: 0;
+	padding: 0;
+}
+
+/*header styles */
+.row {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.row__container {
+	width: 100%;
+	margin: 0 auto;
+	min-height: 50px;
+	display: flex;
+	box-sizing: border-box;
+	padding: 20px;
+	flex-flow: row wrap;
+
+	/*erase borders after*/
+	/*border: 2px solid blue;*/
+}
+
+@media all and ( max-width: 600px ) {
+		.row__container {
+			width: 100%;
+			display: block;
+		}
+}
+
+.row__header {
+	background: black;
+}
+
+.row--tagline {
+	display: block;
+	text-align: center;	
+	background: #C6C6C6;
+	min-height: 60px;
+}
+
+.row__container--header {
+	width: 100%;
+	min-height: 20px;
+	box-sizing: border-box;
+	padding: 20px;
+	
+	display: flex;
+	justify-content: space-around;
+	border-bottom: 3px solid #8b8682;
+
+	/*border: 2px solid green;*/
+
+}
+
+.title__header {
+	min-width: 300px;
+	background-color: black;
+	color: #8b8682;
+	font-size: 30px;
+	font-family: 'Merriweather', serif;
+	text-decoration: none;
+	align-self: center;
+	margin-right: auto;
+
+	/*border: 2px solid red;*/
+
+} 
+
+.title__header--column {
+	font-size: 25px;
+	font-weight: 800px;
+	font-family: 'Merriweather', serif;
+	display: flex;
+	align-self: center;
+}
+
+.nav__container {
+	min-width: 450px;
+	background-color: black;
+	align-self: center;
+	margin-left: auto;
+
+	/*border: 1px solid red;*/	
+}
+
+.nav__button {
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 10px;
+}
+
+.nav__button:hover {
+	color: #8b8682;
+}
+
+.nav__button--diff {
+	font-family: 'Oswald', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+@media all and ( min-width: 400px ) {
+		.nav__button {
+			display: inline-block;
+	}
+}
+
+/*bannerbox styles*/
+.bannerbox {
+	padding-top: 100px;
+	background-image: url('../images/brooklyn_neighbs_map.jpg');
+	background-size: center;
+	background-position: center;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+	height: 500px;
+}
+/*main page colors bisque4 #8b7d6b, NavajoWhite4 #8b795e,
+wheat4 #8b7e66*/
+
+.layout__contents {
+	background-color: #848482;
+	height: 1500px;
+}
+
+
+
